@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог книг</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#2b6cb0">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <nav>
+    <a href="/">Главная</a>
+    <a href="/about">О себе</a>
+  </nav>
+
+  <h1>Каталог книг</h1>
+
+  <div class="filters">
+    <input id="author" placeholder="Автор (Tolstoy)">
+    <input id="year" type="number" placeholder="Год (1869)">
+    <button id="search">Найти</button>
+  </div>
+
+  <ul id="list"></ul>
+
+  <script src="/app.js"></script>
+</body>
+</html>
